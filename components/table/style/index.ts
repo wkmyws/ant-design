@@ -270,7 +270,7 @@ const genTableStyle: GenerateStyle<TableToken, CSSObject> = (token) => {
         ...resetComponent(token),
         fontSize: tableFontSize,
         background: tableBg,
-        scrollbarColor: `${token.tableScrollThumbBg} ${token.tableScrollBg}`,
+        // scrollbarColor: `${token.tableScrollThumbBg} ${token.tableScrollBg}`,
         borderRadius: `${unit(tableRadius)} ${unit(tableRadius)} 0 0`,
       },
       // https://github.com/ant-design/ant-design/issues/17611
